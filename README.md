@@ -11,6 +11,10 @@ There is no support at all offered. These resources are not maintained any more 
 The resources in this bundle are officially not maintained anymore. Therefore there are absolutely no support.
 Resources in this package are all deprecated. Use at own risk
 
+## Framework
+Works with latest ESX Legacy. To work with elder ESX versions, you need to change ESX.GetExtendedPlayers() to ESX.GetPlayers() and use the old way of fetching ESX Object
+- [ESX Legacy](https://github.com/esx-framework/esx_core)
+
 ## Contributing
 - You are more than welcome to contribute to this project.
 - It needs support for QB Core!
