@@ -1,0 +1,54 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+#ins-paper {
+  position: relative;
+  display: none;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 241px;
+  height: 322px;
+  padding: 50px 15px 12px 142px;
+  background: url("../images/inspaper.png");
+}
+#first-name {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  font-size: 13px;
+  color: #000000;
+  left: 16px;
+  width: 60px;
+  top: 129px;
+}
+#last-name {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  font-size: 13px;
+  color: #000000;
+  left: 17px;
+  width: 60px;
+  top: 180px;
+}
+#veh-plate {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  font-size: 13px;
+  color: #000000;
+  left: 120px;
+  width: 60px;
+  top: 256px;
+}
+#veh-ins {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  font-size: 13px;
+  color: #000000;
+  left: 120px;
+  width: 60px;
+  top: 286px;
+}
