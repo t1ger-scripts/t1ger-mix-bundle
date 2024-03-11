@@ -110,7 +110,7 @@ AddEventHandler('t1ger_deliveries:updateCompany', function(num, val, state, name
         -- add/remove service to/from table:
         if state then 
 			deliveryCompanies[num] = { identifier = xPlayer.identifier, id = num, name = name, level = 0, certificate = false }
-			Config.Companies[num].data = data
+			Config.Companies[num].data = { identifier = xPlayer.identifier, id = num, name = name, level = 0, certificate = false }
         else
 			for i = 1, #deliveryCompanies do
 				if deliveryCompanies[i].id == num then
