@@ -133,7 +133,7 @@ end)
 ESX.RegisterServerCallback('t1ger_goldcurrency:checkCops',function(source, cb)
     local xPlayers = ESX.GetExtendedPlayers()
 	PoliceOnline = 0
-	for i=1, #(xPlayers) 1 do
+	for i=1, #(xPlayers), 1 do
 		local xPlayer = xPlayers[i]
 		for k,v in pairs(Config.PoliceSettings.jobs) do
 			if xPlayer.job.name == v then
